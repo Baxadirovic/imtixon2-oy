@@ -739,7 +739,7 @@ a {
 }
 .footer__bottom {
   width: 1440px;
-  background-color: blue;
+  background-color: #333a44;
 }
 .footer__bottom-right {
   display: flex;
