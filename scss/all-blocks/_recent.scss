@@ -1,0 +1,74 @@
+.recent {
+  &__container {
+    background-image: url("./../../images/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    min-height: 650px;
+    margin-bottom: 160px;
+  }
+
+  &__wrapper {
+    padding: 100px 775px 152px 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    background-image: url("./../../images/strelka1.svg"),
+      url("./../../images/strelka2.svg");
+    background-repeat: no-repeat;
+    background-position: left 233px, right 105px bottom 200px;
+  }
+
+  &__heading {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    color: #ffffff;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  &__text-wrapper {
+    margin: 0 auto;
+    margin-left: 90px;
+  }
+
+  &__text {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    width: 405px;
+    height: 100px;
+    margin-bottom: 40px;
+  }
+  .button {
+    min-width: 180px;
+    max-width: 250px;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: #fcb72b;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 44px;
+    cursor: pointer;
+    border: 3px solid transparent;
+
+    &:hover {
+      background-color: white;
+      border: 3px solid #fcb72b;
+      color: #fcb72b;
+      transition: all 0.4s ease;
+    }
+  }
+}

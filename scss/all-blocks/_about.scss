@@ -1,0 +1,43 @@
+.about {
+  &__top {
+    display: flex;
+    align-items: center;
+  }
+
+  &__top-first {
+    width: 284px;
+    height: 15px;
+    background-color: #e5ecf4;
+  }
+
+  &__list {
+    margin-left: 58px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 284px;
+    margin-top: 40px;
+  }
+  &__item {
+    width: 285px;
+    margin-right: 95px;
+  }
+
+  &__heading {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #495567;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939caa;
+  }
+}
